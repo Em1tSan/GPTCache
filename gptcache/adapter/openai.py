@@ -25,7 +25,7 @@ import_openai()
 
 # pylint: disable=C0413
 # pylint: disable=E1102
-import openai
+import g4f as openai
 
 
 class ChatCompletion(openai.ChatCompletion, BaseCacheLLM):
