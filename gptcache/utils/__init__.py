@@ -33,6 +33,7 @@ __all__ = [
     "import_selective_context",
     "import_httpx",
     "import_openai",
+    "import_g4f",
     "import_docarray",
     "softmax",
     "import_paddle",
@@ -232,6 +233,9 @@ def import_httpx():
 
 def import_openai():
     _check_library("openai")
+
+def import_openai():
+    _check_library("g4f")
 
 
 def import_docarray():
